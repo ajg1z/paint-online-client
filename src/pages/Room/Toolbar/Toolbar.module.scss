@@ -11,11 +11,30 @@
         align-items: center;
         gap: 10px;
     }
-    .pageTools {
-        margin-left: auto;
+}
+
+.paintTools {
+    flex: 1;
+    button {
+        padding: 2px 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: transparent;
     }
 }
 
-.selectedTool {
-    border: 1px solid red;
+.nameRoom {
+    white-space: nowrap;
+    max-width: 720px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.pageTools {
+    margin-right: 20px;
+}
+
+button.selectedTool {
+    border-color: black;
 }

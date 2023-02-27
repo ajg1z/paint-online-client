@@ -1,0 +1,44 @@
+.AuthByName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    flex-direction: column;
+    gap: 5px;
+    width: 350px;
+    margin: 0 auto;
+
+    & > label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        > span {
+            flex-basis: 80px;
+            display: block;
+        }
+        > input {
+            flex: 1;
+        }
+    }
+}
+
+.title {
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    > p {
+        color: red;
+    }
+}
+
+.authType {
+    text-decoration: underline;
+}

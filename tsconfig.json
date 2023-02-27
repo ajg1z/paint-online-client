@@ -19,5 +19,6 @@
             "module": "CommonJS"
         }
     },
+    "useDefineForClassFields": true,
     "include": ["./src/**/*.ts", "./src/**/*.tsx", "./config/**/*.tsx", "./config/**/*.ts"]
 }

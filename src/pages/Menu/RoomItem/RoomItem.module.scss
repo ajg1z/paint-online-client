@@ -1,0 +1,34 @@
+.RoomItem {
+	.room {
+		display: flex;
+		background-color: rgb(32, 189, 210);
+		padding: 2px 5px;
+		border-radius: 5px;
+		gap: 5px;
+		justify-content: space-between;
+		align-items: center;
+		height: 30px;
+
+		> span {
+			max-width: 60px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+
+		&.isAuthor {
+			background-color: orange;
+		}
+	}
+}
+
+.status {
+	width: 12px;
+	height: 12px;
+	padding: 1px;
+	border-radius: 50%;
+	background-color: red;
+	&.online {
+		background-color: green;
+	}
+}

@@ -1,0 +1,26 @@
+.Toast {
+	position: fixed;
+	padding: 10px;
+	z-index: 1000;
+	background-color: antiquewhite;
+
+	&.top-left {
+		top: 0;
+		left: 0;
+	}
+
+	&.top-right {
+		right: 0;
+		top: 0;
+	}
+
+	&.bottom-left {
+		left: 0;
+		bottom: 0;
+	}
+
+	&.bottom-right {
+		bottom: 0;
+		right: 0;
+	}
+}

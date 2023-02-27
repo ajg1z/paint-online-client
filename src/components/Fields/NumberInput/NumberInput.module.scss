@@ -1,0 +1,10 @@
+.NumberInput {
+    border-color: black;
+    background-color: white;
+    outline: none;
+    width: 80px;
+    padding: 2px 5px;
+    &:focus {
+        border-color: black;
+    }
+}

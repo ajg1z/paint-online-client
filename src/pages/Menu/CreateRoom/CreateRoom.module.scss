@@ -1,0 +1,15 @@
+.CreateRoom {
+	display: grid;
+	gap: 5px;
+	width: 350px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 10px;
+	& > p {
+		color: red;
+	}
+}
